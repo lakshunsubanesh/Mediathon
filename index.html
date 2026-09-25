@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>24 Minutes — The Beauty of Everyday</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sky-layer">
+    <div class="sun-orb"></div>
+    <div class="moon-orb"></div>
+    <div class="stars"></div>
+    <div class="horizon-glow"></div>
+  </div>
+  <div class="noise"></div>
+  <div class="progress"><span id="progressBar"></span></div>
+  <div class="time-marker" id="timeMarker">
+    <span class="time-dot"></span>
+    <span id="storyTime">17:06 PM</span>
+  </div>
+
+  <div class="theme-badge">24 MINUTES / BPDC</div>
+  <header class="topbar">
+    <span>BPDC / MEDIATHON 3.0</span>
+    <span id="clock">17:06</span>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">THE BEAUTY OF EVERYDAY</p>
+        <h1>Nothing<br>happened.<br><em>Everything did.</em></h1>
+        <p class="hero-sub">One ordinary walk across campus. Twenty-four real minutes — 5:06 to 5:30 in the evening — nothing staged, nothing waiting to happen. Just the light, doing what it does every single day.</p>
+        <button class="begin" id="beginBtn">WATCH THE LIGHT CHANGE <span>↓</span></button>
+      </div>
+      <div class="hero-photo photo" data-image="hero">
+        <img class="real-photo lazy-img" data-src="assets/hero-golden-field.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt="Sun setting behind BPDC buildings, seen through silhouetted trees over an empty parking lot">
+      </div>
+    </section>
+
+    <!-- ACT I -->
+    <section class="chapter chapter-one story-section lazy-section" data-time="17:06 PM" data-phase="golden">
+      <div class="chapter-label">01 / 17:06 PM <span class="phase-word">GOLDEN HOUR</span></div>
+      <div class="chapter-title">
+        <p>Every evening the light does something.</p>
+        <h2>We walk<br>right through it.</h2>
+      </div>
+
+      <div class="split">
+        <figure class="photo tall" data-image="path">
+          <img class="real-photo lazy-img" data-src="assets/path-light-trees.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt="Sunlight through leaves against the dormitory facade">
+          <figcaption>17:06 — the walk that starts every evening the same way.</figcaption>
+        </figure>
+        <div class="text-card">
+          <span>17:06 PM</span>
+          <p>No one called this beautiful.</p>
+          <p class="muted">It was just the walk back. The same trees, the same building, the same seven minutes it always takes. Nobody stopped. Nobody had to — the phone was already out, half by habit.</p>
+        </div>
+      </div>
+
+      <div class="wide-photo photo" data-image="avenue">
+        <img class="real-photo lazy-img" data-src="assets/avenue-two-walkers.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt="Two people walking down a tree-lined avenue in golden light, long shadows on the pavement">
+      </div>
+      <p class="caption right">17:09 — two people who didn't know they were being photographed.</p>
+    </section>
+
+    <!-- ACT II -->
+    <section class="chapter chapter-two story-section lazy-section" data-time="17:10 PM" data-phase="stillbright">
+      <div class="chapter-label">02 / 17:10 PM <span class="phase-word">STILL BRIGHT</span></div>
+      <div class="center-intro">
+        <p>17:09 — 17:12</p>
+        <h2>We complain the day<br>is <em>long.</em></h2>
+      </div>
+
+      <div class="mosaic">
+        <figure class="photo p1"><img class="real-photo lazy-img" data-src="assets/courtyard-bench.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt="Empty courtyard bench under a tree"><figcaption>17:09 — an empty bench, still warm from someone.</figcaption></figure>
+        <figure class="photo p2"><img class="real-photo lazy-img" data-src="assets/avenue-cars-dusk.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt="Tree-lined road with parked cars at dusk"><figcaption>17:10 — the cars that will leave before we do.</figcaption></figure>
+        <figure class="photo p3"><img class="real-photo lazy-img" data-src="assets/road-wide-empty.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt="Wide empty road on campus at golden hour"><figcaption>17:12 — nowhere to be, and somewhere to walk anyway.</figcaption></figure>
+      </div>
+
+      <div class="statement">
+        <p>Then it's this long.</p>
+        <p>Twenty-four minutes, to be exact.</p>
+        <strong>And somehow...<br>we almost didn't notice.</strong>
+      </div>
+    </section>
+
+    <!-- ACT III -->
+    <section class="chapter chapter-three story-section lazy-section" data-time="17:14 PM" data-phase="lowsun">
+      <div class="chapter-label">03 / 17:14 PM <span class="phase-word">LOW SUN</span></div>
+      <div class="quiet-intro">
+        <p>Some minutes are too ordinary to photograph.</p>
+        <h2>They're just<br><em>another walk.</em></h2>
+      </div>
+
+      <div class="quiet-grid">
+        <figure class="photo"><img class="real-photo lazy-img" data-src="assets/avenue-long-shadows.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt="Long tree shadows falling across a brick path, sun low between the trunks"><figcaption>17:14 — the shadows got longer than we did.</figcaption></figure>
+        <figure class="photo"><img class="real-photo lazy-img" data-src="assets/building-warm-evening.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt="Campus building lit warm by the setting sun"><figcaption>17:16 — a wall that looks different for eleven minutes a day.</figcaption></figure>
+        <figure class="photo"><img class="real-photo lazy-img" data-src="assets/fence-light-detail.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt="Sunlight caught in the diamonds of a chain-link fence"><figcaption>17:17 — even the fence was holding light.</figcaption></figure>
+      </div>
+
+      <div class="full-quote">
+        <span>WE DIDN'T STOP WALKING</span>
+        <h2>Because it didn't feel like anything was happening.</h2>
+      </div>
+    </section>
+
+    <!-- ACT IV -->
+    <section class="chapter chapter-late story-section lazy-section" data-time="17:20 PM" data-phase="dusk">
+      <div class="chapter-label">04 / 17:20 PM <span class="phase-word">BEHIND THE FENCE</span></div>
+      <div class="late-intro">
+        <p>17:20 — a different ordinary, a few feet away.</p>
+        <h2>Somewhere, a ball<br>is still <em>in the air.</em></h2>
+      </div>
+
+      <div class="late-grid">
+        <figure class="photo lazy-photo">
+          <img class="real-photo lazy-img" data-src="assets/volleyball-net-play.jpg" alt="Students playing volleyball on a court seen through a fence at dusk">
+          <figcaption>17:20 — someone else's twenty-four minutes.</figcaption>
+        </figure>
+        <figure class="photo lazy-photo offset">
+          <img class="real-photo lazy-img" data-src="assets/volleyball-court-play.jpg" alt="Students mid-game on the court, low evening light">
+          <figcaption>17:21 — they didn't notice us either.</figcaption>
+        </figure>
+        <figure class="photo lazy-photo">
+          <img class="real-photo lazy-img" data-src="assets/playground-corner.jpg" alt="Quiet building corner and playground equipment in the fading light">
+          <figcaption>17:23 — and then, just as quietly, empty again.</figcaption>
+        </figure>
+      </div>
+
+      <div class="late-copy">
+        <p>We walked past without stopping.</p>
+        <p class="highlight">Both of us were just <em>living a Tuesday.</em></p>
+      </div>
+    </section>
+
+    <section class="absence story-section lazy-section" data-time="17:19 PM" data-phase="sunset">
+      <div class="absence-copy">
+        <p>But picture the same kind of court...</p>
+        <h2>a few minutes later.</h2>
+      </div>
+
+      <div class="compare" id="compare">
+        <img src="assets/court-empty-sunset.jpg" alt="The same court, empty, sun setting through the trees">
+        <div class="compare-label">SOMEDAY</div>
+        <div class="compare-before">
+          <img src="assets/volleyball-court-play.jpg" alt="The court full of players at dusk">
+        </div>
+        <div class="compare-handle"><span>↔</span></div><div class="compare-hint">DRAG TO COMPARE</div>
+        <div class="compare-label before">TODAY</div>
+      </div>
+
+      <p class="absence-line">Same fence. Same light. No one left to play.</p>
+    </section>
+
+    <!-- ACT V -->
+    <section class="chapter chapter-three story-section lazy-section" data-time="17:25 PM" data-phase="lettinggo">
+      <div class="chapter-label">05 / 17:25 PM <span class="phase-word">LETTING GO</span></div>
+      <div class="quiet-intro">
+        <p>Slowly, without announcing it —</p>
+        <h2>the day starts<br><em>leaving too.</em></h2>
+      </div>
+
+      <div class="quiet-grid">
+        <figure class="photo"><img class="real-photo lazy-img" data-src="assets/parking-dusk.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt="Empty parking lot at dusk, trees lining the road"><figcaption>17:25 — the cars empty out before we do.</figcaption></figure>
+        <figure class="photo"><img class="real-photo lazy-img" data-src="assets/avenue-cars-leaving.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt="Tree-lined avenue at dusk, last cars pulling away"><figcaption>17:29 — the avenue, nearly done for the day.</figcaption></figure>
+        <figure class="photo"><img class="real-photo lazy-img" data-src="assets/busstop-blue-hour.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt="Bus stop and empty road turning blue at dusk"><figcaption>17:29 — almost blue now. Almost home.</figcaption></figure>
+      </div>
+
+      <div class="full-quote">
+        <span>NOBODY ANNOUNCES DUSK</span>
+        <h2>It just quietly replaces the gold with grey.</h2>
+      </div>
+    </section>
+
+    <!-- ENDING -->
+    <section class="ending story-section lazy-section" data-time="17:30 PM" data-phase="night">
+      <div class="memory-reel">
+        <div class="reel-item"><img src="assets/avenue-two-walkers.jpg" alt=""><span>17:09</span></div>
+        <div class="reel-item"><img src="assets/volleyball-court-play.jpg" alt=""><span>17:21</span></div>
+        <div class="reel-item"><img src="assets/hero-golden-field.jpg" alt=""><span>17:26</span></div>
+      </div>
+
+      <div class="ending-copy">
+        <p>You won't remember what you were thinking at 17:06.</p>
+        <p>You won't remember why you were walking, or where to.</p>
+        <p>You will forget almost all of this.</p>
+        <div class="pause"></div>
+        <h2>But for twenty-four minutes,<br><em>the light remembered</em><br>for you.</h2>
+        <p class="final-line">We thought we were just walking home.<br><strong>We were watching a day end.</strong></p>
+      </div>
+
+      <div class="wide-photo photo last-frame" data-image="lastframe">
+        <img class="real-photo lazy-img" data-src="assets/busstop-final.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt="Empty road and bus stop at 17:30, the sky nearly dark">
+      </div>
+      <p class="caption center">17:30 PM — the last frame. Nothing left to photograph. Everything already kept.</p>
+    </section>
+
+    <footer>
+      <div>24 MINUTES — 17:06 TO 17:30</div>
+      <div>MEDIATHON 3.0 / BPDC</div>
+    </footer>
+  <div class="floating-accent"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
